@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Zoom</title>
+</head>
+<body>
+    <div id="galleryId" class="gallery">
+        <div class="sidebar">
+            <img src="./photo/editor_23cce7dc-03ec-42d2-944c-856176147286.jpg" alt="img1" class="image">
+            <img src="./photo/editor_5f560037-a7da-4138-8293-9572e78b6372.png" alt="img2" class="image">
+            <img src="./photo/editor_979c539c-fd92-49ef-bca7-4ca2aa99a10e.jpg" alt="img3" class="image">
+        </div>
+        <div class="zoomed"></div>
+    </div>
+    <script src="./zoom.js"></script>
+    <script>
+        galleryZoom.init('#galleryId')
+    </script>
+</body>
+</html>
